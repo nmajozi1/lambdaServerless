@@ -1,5 +1,11 @@
 {
   "name": "lambda",
   "version": "1.0.0",
-  "description": "My Graphcool Service"
+  "description": "My Graphcool Service",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "date-fns": "^1.29.0",
+    "graphcool-lib": "^0.1.4",
+    "graphql-request": "^1.8.2"
+  }
 }

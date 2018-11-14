@@ -1,0 +1,9 @@
+type EmployeeCreatePayload {
+    name: String
+    surname: String
+    position: String
+}
+
+extend type Mutation {
+    employeeCreate(name: String, surname: String, position: String): EmployeeCreatePayload
+}

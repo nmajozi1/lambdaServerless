@@ -1,16 +1,11 @@
 types: ./types.graphql
 
 functions:
-  hello:
-    handler:
-      code: src/hello.js
-    type: resolver
-    schema: src/hello.graphql
   employees:
     handler:
-      code: src/resolvers/employees/employees.ts
+    code: src/resolvers/employees/employees.ts
     type: resolver
-      schema: src/resolvers/employees/employees.graphql
+    schema: src/resolvers/employees/employees.graphql
 
 permissions:
   - operation: "*"
