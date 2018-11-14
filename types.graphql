@@ -1,0 +1,15 @@
+type User @model {
+  id: ID! @isUnique
+  name: String
+  surname: String
+  dateOfBirth: DateTime
+}
+
+type Employees @model {
+  id: ID! @isUnique
+  name: String
+  surname: String
+  dateOfBirth: DateTime
+  position: String
+}
+
